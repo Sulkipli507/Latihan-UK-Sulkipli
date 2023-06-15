@@ -1,6 +1,6 @@
-panjang = int(input("Masukkan panjang "))
-lebar = int(input("Masukkan lebar "))
-harga = 200_000
+panjang = float(input("Masukkan panjang "))
+lebar = float(input("Masukkan lebar "))
+harga = 200000
 
-print("Harga calon harta : ", harga*lebar+panjang)
+print("Harga calon harta : ", (panjang*lebar)*harga)
 
